@@ -8,7 +8,7 @@ This file contains the code that initiates a Stream that Listens to SystemIn inp
 The following commands are Recognized:
 
 `ADD` -> The add command is used to add a Url and a corresponding score to the systems internal state.  
-Eg: ADD https://www.google.com/2ad3 20 where 20 is the score associate with the URL.     
+Eg: ADD https://www.google.com/2ad3 20 where 20 is the score associated with the URL.     
 
 `REMOVE` -> The remove command removes any Url that may be present in the system's state.   
 Eg: REMOVE https://www.google.com/2ad3  
