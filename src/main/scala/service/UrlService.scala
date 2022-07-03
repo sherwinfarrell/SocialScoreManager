@@ -1,7 +1,8 @@
-package Utils
+package service
+
 import org.apache.commons.validator.routines.UrlValidator
 
-object UrlChecker {
+object UrlService {
 
   def checkUrl(urlString: String): Option[String] = {
     val urlValidator = new UrlValidator()
