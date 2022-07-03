@@ -3,3 +3,7 @@
 target/
 metals.*
 .meta
+.bloop/
+.vscode/
+
+/project/target/
